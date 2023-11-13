@@ -1,0 +1,5 @@
+1. c /c++ # 为了客户端开发和做游戏
+2. w3c 为了做网页
+3. android
+4. docker
+5. linux

@@ -1,0 +1,54 @@
+/* 第一部分 */
+.box_1{
+    border: solid 10px gray;
+    color:rgb(25, 83, 83);
+
+}
+
+.class_s {
+    color: red;
+}
+h1 {
+    color: rgb(3, 46, 32);
+}
+strong {
+    color: rebeccapurple;
+}
+span {
+    background-color: yellow;
+}
+em {
+    color: rebeccapurple;
+}
+
+#id_s {
+    color: blue;
+}
+
+
+/* 第二部分 */
+.box_2 {
+    border: solid 10px rgb(11, 105, 47);
+    
+}
+
+a[href]{
+    display: block;
+    background-color: bisque;
+    margin: 20px 30px;
+    height: 40px;
+    text-align: center;
+    
+}
+a[href="ab"]{
+    background-color: blueviolet;
+}
+a[href="abc"]:hover{
+    background-color: rgb(122, 122, 136);
+}
+
+/* 使用>p 指定的 div中第一个p元素 */
+.box_2 >p::first-line{
+    font-size: 30px;
+    color: rgb(156, 59, 59);
+}
